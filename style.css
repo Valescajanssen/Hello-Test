@@ -5,11 +5,9 @@
     flex-direction: column;
 } */
 
-.indexCSS{
+body{
     background-color: beige;
 }
-
-
 
 .center img{
     border-radius: 20pt;
@@ -41,3 +39,36 @@ ol {
     font-size: 20pt;
 }
 
+.header {
+    text-align: center;
+}
+
+.header h1{
+    font-size: 50pt;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.topnav {
+    background-color: gray;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.topnav a:hover {
+    background-color: gray;
+    color: black;
+}
